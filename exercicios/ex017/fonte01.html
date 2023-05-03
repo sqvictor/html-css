@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            /*
+            Medidas absolutas: 
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas: 
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+        }
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 1px 1px 2px #6f9194;
+            /*
+            font-weight: bold;
+            font-size: 3em;
+            font-style: italic;
+            ABAIXO MOSTRA COMO USAR O MÉTODO SHORTHAND PARA CONFIGURAR ISSO TUDO
+            */
+
+            /* 
+            shorthand font - como usar:
+            font-style > font-weight > font-size > font-family
+            */
+            font: italic bold 3em 'times new roman';
+        }
+        main {
+            background-color: #b2e7eb;
+            margin: auto;
+            width: 50%;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px #6f9194;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Trabalhando com Fontes</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nulla nihil, architecto sit quas voluptate. In quod iste ab sit asperiores, quae voluptatem sed? Possimus illum nesciunt corrupti libero sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias mollitia quibusdam porro nobis temporibus voluptates repudiandae ad atque officia in vero quidem sint commodi, quasi similique aliquid explicabo. Vitae.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam in doloribus consequatur labore. Magnam, nulla accusamus. Distinctio dolorem vitae asperiores perspiciatis, cupiditate dolore voluptate iure reprehenderit qui. Quisquam, aut.</p>
+        <h2>Subtítulo do exercício</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel deleniti aliquam nam. Tempora, iure in! At quasi sunt nisi, dolor ea, eligendi quibusdam modi eum tempore deleniti, corrupti alias ullam?</p>
+    </main>
+   
+</body>
+</html>
